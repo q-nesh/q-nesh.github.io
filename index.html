@@ -1,1 +1,185 @@
 
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>hi</title>
+		<link rel="icon" href="img/favicon.jpg" type="image/x-icon" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta charset="utf-8" />
+  
+	</head>
+	<style>
+		body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: 'arial';
+  src: url(font/arialnarrow.ttf);
+}
+
+@font-face {
+  font-family: 'arialbold';
+  src: url(font/arialnarrow_bold.ttf);
+}
+
+a, span, .hoverable {
+	cursor: url(img/cursor33.png), auto;
+}
+a {
+  margin-top: -100px;
+  margin-left: -16vw;
+  font-family: 'arial';
+  transform: scale(0.7);
+  font-weight: lighter;
+  text-align: center;
+  transform: scale(1.2);
+  animation: pulseblur 3s infinite cubic-bezier(1, 1.11, 1, 0.29), scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  color: #18590E;
+  font-size: 30px;
+  padding: 5px;
+  rotate: -1deg;
+	transition: 0.2s ease-out;
+	transform:  scale(1.2);
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 32px;
+	transition: 0.1s ease-out;
+}
+
+.hoverable:hover{
+  font-size: 35px;
+	transform: scale(1.07) translateY(0.3px);
+	transition: 0.1s ease-out;
+	filter:blur(1)
+}
+@keyframes scale {
+  0% {pointer-events: none;}
+  50% {pointer-events: none;}
+  100% {
+    transform: scale(1);
+	pointer-events: all;
+  }
+}
+@keyframes pulseblur {
+	0% {
+        filter: blur(0.7px);
+    }
+50% {
+        filter: blur(2px);
+}
+	100% {
+        filter: blur(0.5px);
+    }
+}
+
+span {
+  margin: 2px;
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+span:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3) {
+  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(4) {
+  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(5) {
+  animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(6) {
+  animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(7) {
+  animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(8) {
+  animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(9) {
+  animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(10) {
+  animation: fade-in 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(11) {
+  animation: fade-in 0.8s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(12) {
+  animation: fade-in 0.8s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(13) {
+  animation: fade-in 0.8s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(14) {
+  animation: fade-in 0.8s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(15) {
+  animation: fade-in 0.8s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(16) {
+  animation: fade-in 0.8s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(17) {
+  animation: fade-in 0.8s 1.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(18) {
+  animation: fade-in 0.8s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  a{
+  margin-left: 0;
+  }
+}
+	</style>
+</head>
+
+
+<body>
+	
+	<a href="/home.html">
+ <span>hi</span><span>,</span><span>welcome</span><span>to</span><span>my</span><span>website</span>
+ <br>
+ <span class="hoverable" style="  font-family: 'arialbold';">enter?</span>
+	</a>
+</body>
