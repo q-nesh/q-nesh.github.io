@@ -1,0 +1,209 @@
+<html>
+    <head>
+     <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
+
+    </head>
+    <body>
+         <div style="width:40px; height:40px; margin:0;">
+	      <div id="winamp-container"></div>
+          <script>
+		const Winamp = window.Webamp;
+		// All configuration options are optional.
+		const webamp = new Webamp({
+  	    // Optional.
+   	    initialTracks: [
+        {
+            metaData: {
+                artist: "Gorillaz",
+                title: "Dirty Harry",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/Gorillaz%20-%20Dirty%20Harry.flac",
+        },{
+            metaData: {
+                artist: "Lamp",
+                title: "愛の言葉",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/Lamp%20YouTube%20Official%20Channel%20-%20%E6%84%9B%E3%81%AE%E8%A8%80%E8%91%89.flac",
+        },
+        {
+            metaData: {
+                artist: "Charlie xcx",
+                title: "360",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/Charli%20xcx%20-%20360%20(official%20lyric%20video)%20%5BO_HoOpJ60C0%5D.flac",
+        }, {
+            metaData: {
+                artist: "EsDeeKid",
+                title: "Prague",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/Prague%20%5Bcfeg_fv5H2g%5D.mp3",
+        },{
+             metaData: {
+                artist: "Nadin Amizah",
+                title: "Rayuan Perempuan Gila",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/Rayuan%20Perempuan%20Gila%20%5B2A9Atl2hUkg%5D.mp3",
+        }, {
+            metaData: {
+                artist: "Green Day",
+                title: "American Idiot",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/Green%20Day%20-%20American%20Idiot%20(Official%20Audio)%20%5BkqkGY9jsBOw%5D.mp3",
+        }
+        ,{
+            metaData: {
+                artist: "The Weeknd",
+                title: "São Paulo",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/The%20Weeknd%20-%20S%C3%A3o%20Paulo%20(Official%20Music%20Video)%20%5B2kjolTLZ_Mg%5D.opus",
+        }, {
+            metaData: {
+                artist: "Massive Attack",
+                title: "Angel",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/Massive%20Attack%20-%20Angel%20%5Bhbe3CQamF8k%5D.mp3",
+        },
+        {
+            metaData: {
+                artist: "Laufey",
+                title: "Letter To My 13 Year Old Self",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/Laufey%20-%20Letter%20To%20My%2013%20Year%20Old%20Self%20(Official%20Lyric%20Video%20With%20Chords)%20%5B80Gf35I7n1w%5D.opus",
+        },{
+            metaData: {
+                artist: "PinkPantheress",
+                title: "Tonight",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/Pinkpantheress%20-%20PinkPantheress%20-%20Tonight%20(Official%20Lyric%20Video).flac",
+        },
+        {
+            metaData: {
+                artist: "LSDXOXO ft.BoysNoize&VTSS",
+                title: "Red",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/LSDXOXO%20-%20RED%20ft.%20Boys%20Noize%20%26%20VTSS%20(Lyric%20Video)%20%5BixlLrBSrxDA%5D.mp3",
+        },{
+            metaData: {
+                artist: "Perry Maysun",
+                title: "WHO GON’ HOLD YA BONES” [Bedroom LIVE Recording] ",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/%E2%80%9CWHO%20GON%E2%80%99%20HOLD%20YA%20BONES%E2%80%9D%20%5BBedroom%20LIVE%20Recording%5D%20(Prod.%20Zionkat)%20%5BHm7I2RqZue8%5D.mp3",
+        }, {
+            metaData: {
+                artist: "Chase Icon",
+                title: "Bubblegum",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/Chase%20Icon%20-%20Bubblegum%20(Lyrics)%20%5B6MY9zfu38xc%5D.mp3",
+        },
+        {
+            metaData: {
+                artist: "MF DOOM",
+                title: "Hoe Cakes",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/MF%20DOOM%20-%20Hoe%20Cakes%20(Official%20Audio)%20%5BMv6kY_-zt-4%5D.mp3",
+        },{
+            metaData: {
+                artist: "The Dare",
+                title: "Girls",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/The%20Dare%20-%20Girls.flac",
+        }, {
+            metaData: {
+                artist: "Malcolm Todd",
+                title: "Earrings",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/Malcolm%20Todd%20-%20Earrings%20(Official%20Visualizer)%20%5Ba4tdS3IB294%5D.mp3",
+        },
+        {
+            metaData: {
+                artist: "Troye Sivan",
+                title: "Rush",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/Troye%20Sivan%20-%20Rush%20(Lyric%20Video)%20%5B08HDlslcGu4%5D.mp3",
+        },{
+            metaData: {
+                artist: "Chappell Roan",
+                title: "Pink Pony Club",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/Chappell%20Roan%20-%20Pink%20Pony%20Club.flac",
+        }, {
+            metaData: {
+                artist: "So Supa",
+                title: "Baked Chicken",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/Baked%20Chicken%20%5Bxlw7f71IOAE%5D.mp3",
+        },
+        {
+            metaData: {
+                artist: "brokeNCYDE",
+                title: "Teach Me How To Scream ",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/brokeNCYDE%20-%20Teach%20Me%20How%20To%20Scream%20%5BZbg6lwq5yS4%5D.mp3",
+        },{
+            metaData: {
+                artist: "LE SSERAFIM",
+                title: "SPAGHETTI (Member ver.)",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/LE%20SSERAFIM%20-%20SPAGHETTI%20(Member%20ver.).flac",
+        }, {
+            metaData: {
+                artist: "Kendrick Lamar",
+                title: "Luther",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/Kendrick%20Lamar%20-%20luther%20(Official%20Audio)%20%5BHfWLgELllZs%5D.mp3",
+        },
+        {
+            metaData: {
+                artist: "Arctic Monkeys",
+                title: "No. 1 Party Anthem",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/No.%201%20Party%20Anthem%20%5BmGUjVbsYG6E%5D.mp3",
+        },{
+            metaData: {
+                artist: "Frank Sinatra, Nancy Sinatra",
+                title: "Somethin' Stupid (2008 Remastered)",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/Somethin'%20Stupid%20(2008%20Remastered)%20%5BY_t2gNCXYbY%5D.mp3",
+        }, {
+            metaData: {
+                artist: "Childish Gambino",
+                title: "Me and Your Mama",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/Me%20and%20Your%20Mama%20%5BZiIjLL9wq4Q%5D.opus",
+        },
+        {
+            metaData: {
+                artist: "The Cranberries",
+                title: "Linger",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/The%20Cranberries%20-%20Linger%20(Official%20Music%20Video)%20%5BG6Kspj3OO0s%5D.mp3",
+        },{
+			 metaData: {
+                artist: "Naykilla",
+                title: "SO ASU",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/Naykilla%2C%20Anangga%20Surya%20Dewang%20-%20SO%20ASU.flac",
+        }, {
+            metaData: {
+                artist: "Tyler, The Creator",
+                title: "Like Him",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/Like%20Him%20%5BdgUHE8wWhiE%5D.opus",
+        },
+        {
+            metaData: {
+                artist: "Ayesha Erotica",
+                title: "Nasty",
+            },
+            url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/listening%20room/Music/Ayesha%20Erotica%20-%20Nasty%20%5BFmIujycCtzI%5D.mp3",
+        },
+      ],
+    initialSkin: {
+        url: "https://file.garden/aG3rdTNO_Dlar7-g/new%20site/music/Sentinel_Green.wsz"
+    },
+});
+webamp.renderWhenReady(document.getElementById('winamp-container'));
+</script>
+            </div>
+    </body>
+</html>
