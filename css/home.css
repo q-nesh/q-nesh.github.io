@@ -100,7 +100,7 @@ header {
 
 header span {
   font-family: 'arial';
-  font-size: 2rem;
+  font-size: 1.5rem;
   letter-spacing: -1px;
   transform: scaleY(200%);
   float: left;
@@ -171,8 +171,12 @@ h4 {
 }
 p{
 	font-size: 16px;
-	margin-top: 40px;
-	line-height: 18px;
+	margin-top: 20px;
+	line-height: 16px;
+}
+
+.half p{
+	margin-top: 50px;
 }
 
 li{
