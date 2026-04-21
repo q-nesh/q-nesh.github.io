@@ -40,15 +40,10 @@ body {
 		top: 15px;
 	} 
 
-	.half p:first-of-type{
-		margin-top: 20px;
-	}
 
-	p{
-	font-size: 12px;
-	line-height: 16px;
-	margin-bottom: 10px;
-	}
+	.half li{
+	margin-bottom: 20px;
+} 
 
   .header span {
   font-family: 'arial';
@@ -57,7 +52,7 @@ body {
   transform: scaleY(230%);
   float: left;
   height: 23px;
-  margin-top: 100px;
+  margin-top: 90px;
   overflow: visible;
   pointer-events: none;
   filter: blur(0.7px);
@@ -67,12 +62,6 @@ body {
   margin-right: 2px;
 }
 }
-
-
-#problem{
-	margin-top: 30px;
-}
-
 
 button{
     background-color: whitesmoke;
@@ -134,7 +123,7 @@ header span {
   transform: scaleY(230%);
   float: left;
   height: 23px;
-  margin-top: 100px;
+  margin-top: 90px;
   overflow: visible;
   pointer-events: none;
   filter: blur(0.7px);
@@ -167,6 +156,7 @@ footer {
 	margin-bottom: 5vw;
 	font-size: 0.8rem;
 }
+
 footer a { 
 	text-decoration: none;
 }
@@ -175,7 +165,7 @@ footer a {
 h1, h2, h3, h4, h5, h6, p, li  { 
 	margin: 5px;
 	line-height: 1.5;
-	transform: scaleY(150%);
+	transform: scaleY(130%);
 	letter-spacing: -1px;
 }
 h1 { 
@@ -204,10 +194,12 @@ p{
 	font-size: 18px;
 }
 
-
-li{
-	margin-bottom: 50px;
+ul{
+	list-style-type: none;
+	margin-left: -40px;
 }
+
+
 
 a{
 	color: #1e7f0d;
